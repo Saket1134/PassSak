@@ -1,12 +1,20 @@
-# React + Vite
+# PassManager: A Secure MERN Stack Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassManager is a modern, full-stack application designed to secure and simplify your digital life. It allows users to safely generate, store, and manage all their online credentials within an encrypted digital vault. By enforcing the use of strong, unique passwords for every service, this application significantly enhances the user's cybersecurity posture.
 
-Currently, two official plugins are available:
+The project is built on the MERN stack, leveraging the power of JavaScript for seamless development across the entire application.
+MERN=MongoDB,Express.js,React,Node.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Frontend**=React.js with vite is uused to building Building the fast and interactive user interface (Navbar, Manager, Footer).  
+**Backend**=Express.js / Node.js is used for The server-side framework and runtime environment for handling API requests and business logic.  
+**Database**=MongoDB is A flexible, non-relational (NoSQL) database used for secure data storage.  
+**Styling**=Tailwind CSS is A utility-first CSS framework for rapid and responsive UI development.   
+**Security**=Bcrypt & AES-256 are the libraries for Master Password hashing and data encryption.   
 
-## Expanding the ESLint configuration
+# Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Encrypted Digital Vault: All credentials are stored as unreadable ciphertext in the database.  
+Secure Authentication: Access to the application is protected by a single, strong Master Password (which is stored as an irreversible hash).   
+Unique Password Generation: A built-in feature to create highly complex and unique passwords for every new service.   
+Seamless Management: The main <Manager /> component provides a user-friendly interface to add, view, edit, and delete stored credentials.   
+Cross-Platform Access: Accessible from any device via the web browser.  
