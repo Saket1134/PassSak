@@ -1,4 +1,4 @@
-# PassManager: A Secure MERN Stack Password Manager
+# PassSak: A Secure MERN Stack Password Manager
 
 PassManager is a modern, full-stack application designed to secure and simplify your digital life. It allows users to safely generate, store, and manage all their online credentials within an encrypted digital vault. By enforcing the use of strong, unique passwords for every service, this application significantly enhances the user's cybersecurity posture.
 
